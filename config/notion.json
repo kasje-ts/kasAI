@@ -1,0 +1,112 @@
+{
+  "databases": {
+    "tasks": {
+      "id": "2e09b6c7-1158-811f-92c2-000b4f6a3164",
+      "defaults": {
+        "status": "Backlog"
+      },
+      "status_values": [
+        "Backlog",
+        "In Progress",
+        "Paused",
+        "Completed",
+        "Delegated"
+      ],
+      "properties": [
+        "Name",
+        "Sub-task",
+        "Complete",
+        "Created",
+        "Description",
+        "Due Date",
+        "Edited",
+        "Parent Task",
+        "Priority",
+        "Project",
+        "Resources",
+        "Status",
+        "URL"
+      ]
+    },
+    "projects": {
+      "id": "2e09b6c7-1158-81da-93c4-000beb315d43",
+      "defaults": {
+        "status": "Inbox"
+      },
+      "status_values": [
+        "Inbox",
+        "Planned",
+        "In Progress",
+        "Completed"
+      ],
+      "properties": [
+        "Name",
+        "Area",
+        "Due Date",
+        "Status",
+        "Archive",
+        "Created",
+        "Edited",
+        "Priority",
+        "Progress",
+        "Resources",
+        "Start Date",
+        "Tasks"
+      ]
+    },
+    "areas": {
+      "id": "2e09b6c7-1158-8196-81f8-000b121fc4f3",
+      "properties": [
+        "Name",
+        "Progress",
+        "Archive",
+        "Projects",
+        "Resources"
+      ]
+    },
+    "resources": {
+      "id": "2e09b6c7-1158-81ee-bb15-000b2002040f",
+      "defaults": {
+        "status": "Inbox"
+      },
+      "status_values": [
+        "Inbox",
+        "To Review",
+        "Reviewed"
+      ],
+      "properties": [
+        "Name",
+        "Type",
+        "URL",
+        "Status",
+        "Archive",
+        "Favorite",
+        "Description",
+        "Files",
+        "Tasks",
+        "Projects",
+        "Area",
+        "Created",
+        "Edited",
+        "Topics"
+      ]
+    },
+    "inbox": {
+      "id": "2e19b6c7-1158-8092-b572-000b4846107d",
+      "defaults": {
+        "status": "Not Started"
+      },
+      "status_values": [
+        "Not Started",
+        "In Progress",
+        "Processed"
+      ],
+      "properties": [
+        "Name",
+        "Created time",
+        "Last edited time",
+        "Status"
+      ]
+    }
+  }
+}
